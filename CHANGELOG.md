@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning][SEMVER].
 ## [1.0.0] - 2019-03-03
 
 ### Added
+- `id(object)` to retrieve IDs
+- `has(object, number)` to compare objects with IDs
+- `clear()` to clear the object ID store
 - IDE configuration files
 - NPM Scripts for testing, building, linting and publishing
 
