@@ -1,0 +1,60 @@
+{
+  "name": "@axaptional/object-id",
+  "version": "0.1.0",
+  "description": "A simple utility function that creates and returns incremental object IDs",
+  "main": "dist/object-id.js",
+  "types": "dist/object-id.d.ts",
+  "scripts": {
+    "test": "mocha",
+    "build": "webpack",
+    "lint": "tslint -p tsconfig.json",
+    "lint:fix": "tslint -p tsconfig.json --fix",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "files": [
+    "dist/**/*",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "directories": {
+    "lib": "dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axaptional/object-id.git"
+  },
+  "keywords": [
+    "incremental",
+    "object",
+    "id",
+    "oid",
+    "weak",
+    "map",
+    "weakmap"
+  ],
+  "author": {
+    "name": "André Mategka",
+    "email": "12amdeveloper@gmail.com"
+  },
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/axaptional/object-id/issues"
+  },
+  "homepage": "https://github.com/axaptional/object-id",
+  "devDependencies": {
+    "mocha": "^6.0.2",
+    "terser-webpack-plugin": "^1.2.3",
+    "ts-declaration-webpack-plugin": "^1.1.1",
+    "ts-loader": "^5.3.3",
+    "tslint": "^5.13.0",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}

@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning][SEMVER].
 
 ### Added
 - IDE configuration files
+- NPM Scripts for testing, building, linting and publishing
 
 ### Changed
 - License is now the Unlicense (previously MIT)
