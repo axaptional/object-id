@@ -10,6 +10,9 @@ and this project adheres to [Semantic Versioning][SEMVER].
 ### Added
 - IDE configuration files
 
+### Changed
+- License is now the Unlicense (previously MIT)
+
 <!-- General references -->
 [KEEP-A-CHANGELOG]: https://keepachangelog.com/en/1.0.0/
 [SEMVER]: https://semver.org/spec/v2.0.0.html
