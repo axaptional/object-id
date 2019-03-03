@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning][SEMVER].
 - TSLint (Standard code style)
   - Minor adjustments for better readability
 - Mocha tests
+- README documentation
 
 ### Changed
 - License is now the Unlicense (previously MIT)
