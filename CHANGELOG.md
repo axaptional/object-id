@@ -11,8 +11,11 @@ and this project adheres to [Semantic Versioning][SEMVER].
 - `id(object)` to retrieve IDs
 - `has(object, number)` to compare objects with IDs
 - `clear()` to clear the object ID store
+- TypeScript declaration file
 - IDE configuration files
 - NPM Scripts for testing, building, linting and publishing
+- TSLint (Standard code style)
+  - Minor adjustments for better readability
 
 ### Changed
 - License is now the Unlicense (previously MIT)

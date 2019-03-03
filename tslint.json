@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "member-ordering": [true, {
+      "order": "fields-first"
+    }],
+    "interface-name": false,
+    "no-shadowed-variable": false
+  },
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-standard"
+  ]
+}
