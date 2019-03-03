@@ -1,0 +1,7 @@
+{
+  "spec": "test/**/*.spec.js",
+  "ui": "bdd",
+  "diff": true,
+  "exit": true,
+  "reporter": "spec"
+}
