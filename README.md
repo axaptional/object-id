@@ -27,7 +27,7 @@ Import the `id` object from this package:
 // ES2015+ syntax
 import { id } from '@axaptional/object-id';
 // CommonJS syntax (Node)
-const id = require('@axaptional/object-id').id;
+const { id } = require('@axaptional/object-id');
 ```
 
 ### `id(<object>)`
