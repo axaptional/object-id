@@ -1,6 +1,6 @@
 {
   "name": "@axaptional/object-id",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple utility function that creates and returns incremental object IDs",
   "main": "dist/object-id.js",
   "types": "dist/object-id.d.ts",
